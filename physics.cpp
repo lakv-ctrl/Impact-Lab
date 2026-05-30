@@ -12,6 +12,15 @@
 #include <cstring>
 #include <ctime>
 
+#define _USE_MATH_DEFINES
+#include <cmath>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 #ifdef __EMSCRIPTEN__
 #include <emscripten/emscripten.h>
 #define EXPORT EMSCRIPTEN_KEEPALIVE
